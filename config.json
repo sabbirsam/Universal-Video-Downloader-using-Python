@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "download_directory": "downloads",
+    "temp_directory": "temp",
+    "tools_directory": "tools",
+    "max_concurrent_downloads": 3,
+    "default_video_quality": "best",
+    "default_audio_quality": "best"
+  },
+  "toffee": {
+    "api_base_url": "https://api.toffee.com/v1",
+    "license_url": "https://license.toffee.com/v1/license",
+    "auth_token": "YOUR_AUTH_TOKEN_HERE",
+    "device_path": "device.json"
+  },
+  "youtube": {
+    "extract_subtitles": true,
+    "subtitle_languages": ["en", "bn"],
+    "extract_thumbnails": true,
+    "write_info_json": true
+  },
+  "ffmpeg": {
+    "video_codec": "copy",
+    "audio_codec": "copy",
+    "output_format": "mp4"
+  }
+}
